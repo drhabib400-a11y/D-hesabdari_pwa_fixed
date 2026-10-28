@@ -1,6 +1,6 @@
 'use strict';
-const CACHE_NAME = 'hesabdari-seniors-v3';
-const APP_SHELL = ['./', './index.html', './manifest.webmanifest', './icon.svg'];
+const CACHE_NAME = 'hesabdari-seniors-v4';
+const APP_SHELL = ['./', './index.html', './manifest.webmanifest', './icon.svg', './icon-192.png', './icon-512.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(APP_SHELL)).then(() => self.skipWaiting()));
 });
