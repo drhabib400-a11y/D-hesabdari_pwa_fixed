@@ -1,0 +1,22 @@
+{
+  "id": "./",
+  "name": "حسابداری شخصی برای سالمندان",
+  "short_name": "حسابداری من",
+  "description": "دفتر روزانه، خرید، یادآور و حساب‌وکتاب شخصی",
+  "lang": "fa",
+  "dir": "rtl",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f2f7fc",
+  "theme_color": "#07599b",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
